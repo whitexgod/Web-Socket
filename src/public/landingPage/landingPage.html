@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/landingPage/landingPage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Our Community!</h1>
+      <p>Join us to connect with like-minded individuals</p>
+
+      <!-- Add input form for name -->
+      <form id="joinForm">
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" name="username" required />
+        <button type="submit" class="join-button">Join Community</button>
+      </form>
+
+      <!-- Loader element (hidden initially) -->
+      <div id="loader" class="loader" style="display: none"></div>
+
+      <p id="greeting"></p>
+    </div>
+
+    <script src="/landingPage/landingPage.js"></script>
+  </body>
+</html>
